@@ -1,0 +1,30 @@
+h1{
+    font-size: 40px;
+    text-align: center;
+    color: aqua;
+}
+
+body{
+    background: url(https://images.unsplash.com/photo-1553095066-5014bc7b7f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8d2FsbCUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 30px;
+    color: beige;
+    margin: 60px 10px 30px 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#messagea{
+    font-style: italic;   
+}
+
+button{
+    margin: 3px auto;
+    background: goldenrod;
+    width: 150px;
+    color: #016f32;
+    font-size: 20px;
+    padding: 5px 0px;
+    border: none;
+    border-radius: 3px;
+}
