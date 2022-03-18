@@ -15,6 +15,7 @@ function getrandom(){
 
 
 function start(){
+    if(sum > 0){return}
     isalive = true;
     let cardone = getrandom();
     let cardtwo = getrandom();
@@ -49,15 +50,11 @@ function rendergame(){
 }
 
 function newcard(){
+    if(isalive === true && blackjack === false){
     let card3 = getrandom();
     cards.push(card3)
     sum += card3;
     messagetop.textContent = "Drawing a new card from deck";
     rendergame()   
+    }
 }
-
-
-console.log(Math.random()*11)
-
-console.log(Math.floor(Math.random()*10)+2)
-
