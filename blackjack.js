@@ -1,5 +1,5 @@
 
-let cards =[]
+let cards =[];
 let blackjack = false;
 let isalive = false;
 let messaged = "";
@@ -7,7 +7,14 @@ let sum = 0;
 let messagetop = document.getElementById("messagea");
 let total = document.getElementById("total");
 let cardsline = document.getElementById("cards");
-let cardmessage = document.getElementById("cardmessage");
+let playrec = {
+    name: "John",
+    bal: 100
+}
+let playern = document.getElementById("player");
+
+// playern.textContent = playrec.name + " - $" + playrec.bal;
+
 
 function getrandom(){
     return Math.floor(Math.random()*10)+2;
@@ -27,7 +34,7 @@ function start(){
 
 function rendergame(){
     cardsline.textContent = "Cards: ";
-    for(i = 0; i < cards.length; i++){
+    for(let i = 0; i < cards.length; i++){
         cardsline.textContent += cards[i] + " ";
     }
 
@@ -58,3 +65,15 @@ function newcard(){
     rendergame()   
     }
 }
+
+
+let largeCountries = ["Tuvalu","India","USA","Indonesia","Monaco"]
+
+largeCountries.pop()
+largeCountries.push("Pakistan")
+largeCountries.shift()
+largeCountries.unshift("China")
+console.log(largeCountries)
+
+
+
