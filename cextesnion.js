@@ -54,46 +54,46 @@ tabbutton.addEventListener("click", function(){
 // let random1 = ["aks", "kasdj1"]
 // localStorage.setItem("tess", JSON.stringify(random1));
 
-let rec111 = JSON.parse(localStorage.getItem("tess"));
-console.log(rec111)
+// let rec111 = JSON.parse(localStorage.getItem("tess"));
+// console.log(rec111)
 
 
-let data = [
-    {
-        player: "Jan",
-        score: 121
-    },
-    {
-        player: "Feb",
-        score: 039
-    }
-]
+// let data = [
+//     {
+//         player: "Jan",
+//         score: 121
+//     },
+//     {
+//         player: "Feb",
+//         score: 039
+//     }
+// ]
 
-for(i = 0; i < data.length; i++){
-    if(data[i].player === "Jan" ){
-        console.log(data[i].score);
-    }
-}
+// for(i = 0; i < data.length; i++){
+//     if(data[i].player === "Jan" ){
+//         console.log(data[i].score);
+//     }
+// }
 
-let descccc = "largest country";
-let arr100 = ["Dubai", "Sharjah", "Ajman"];
+// let descccc = "largest country";
+// let arr100 = ["Dubai", "Sharjah", "Ajman"];
 
-function generatesent (desc, arr1){
-    let temp = "";
-    for (let i = 0; i < arr1.length; i++){
-        if(i = arr1.length -1){
-            temp += arr1[i] + ". ";
-        }
-        else{
-        temp += arr1[i] + " , ";
-        }
-    }
-    console.log(temp);
+// function generatesent (desc, arr1){
+//     let temp = "";
+//     for (let i = 0; i < arr1.length; i++){
+//         if(i = arr1.length -1){
+//             temp += arr1[i] + ". ";
+//         }
+//         else{
+//         temp += arr1[i] + " , ";
+//         }
+//     }
+//     console.log(temp);
 
-    return (`The ${arr1.length} ${desc} are ${temp}`);
-}
+//     return (`The ${arr1.length} ${desc} are ${temp}`);
+// }
 
-console.log(generatesent(descccc, arr100));
+// console.log(generatesent(descccc, arr100));
 
 
 
